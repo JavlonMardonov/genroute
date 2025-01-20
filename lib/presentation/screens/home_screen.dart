@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Stack(
           children: [
             SizedBox(
-              height: 500,
+              height: MediaQuery.of(context).size.height * 0.75,
               child: Image.asset(
                 'assets/images/laza.png',
                 fit: BoxFit.cover,
